@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.App-header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #f3f3f3;
+}
+
+.about-section {
+  padding: 50px 20px;
+  background-color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+}
